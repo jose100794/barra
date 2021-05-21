@@ -1,0 +1,44 @@
+body {
+  background-color: wheat;
+}
+.pacman {
+  margin: auto;
+  width: 0;
+  height: 0;
+  border-right: 60px solid transparent;
+  /*CUADRADO PARTIDO A LA MITAD*/
+  border-top: 60px solid yellow;
+  /*RECTANGULO PARTIDO*/
+  border-left: 60px solid yellow;
+  /*FIGURA DIVIDIDA EN 2*/
+  border-bottom: 60px solid yellow;
+  /*DARLE BORDE CIRCULAR*/
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+}
+.pacman1 {
+  margin: auto;
+  width: 0;
+  height: 0;
+  border-left: 60px solid transparent;
+  /*CUADRADO PARTIDO A LA MITAD*/
+  border-top: 60px solid yellow;
+  /*RECTANGULO PARTIDO*/
+  border-right: 60px solid yellow;
+  /*FIGURA DIVIDIDA EN 2*/
+  border-bottom: 60px solid yellow;
+  /*DARLE BORDE CIRCULAR*/
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+}
+h1 {
+  margin: auto;
+  color: white; /*PARA PONER COLOR AL TEXTO*/
+  font-family: Arial; /*PARA PONER TIPO DE LETRA*/
+  font-size: 50px; /*PARA PONER TAMAÑO DE LETRA*/
+  letter-spacing: 0.1cm; /*SIRVE PARA SEPARAR POCO A POCO LAS LETRAS*/
+}

@@ -1,0 +1,26 @@
+body {
+  background: aqua; /*color de fondo*/
+}
+h1 {
+  margin: auto;
+  color: white; /*PARA PONER COLOR AL TEXTO*/
+  font-family: Arial; /*PARA PONER TIPO DE LETRA*/
+  font-size: 50px; /*PARA PONER TAMAÑO DE LETRA*/
+  letter-spacing: 0.1cm; /*SIRVE PARA SEPARAR POCO A POCO LAS LETRAS*/
+}
+.triangulo {
+  width: 0;
+  height: 0;
+  border-right: 50px solid transparent;
+  border-left: 50px solid transparent;
+  border-bottom: 100px solid white;
+  margin: auto;
+}
+.triangulo1 {
+  width: 0;
+  height: 0;
+  border-right: 50px solid transparent;
+  border-left: 50px solid transparent; /*TRANSPARENT= HACE QUE NO SE VEA LOS BORDES*/
+  border-top: 100px solid white;
+  margin: auto;
+}
